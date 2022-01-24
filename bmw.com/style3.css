@@ -1,0 +1,1331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.beginner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    transition: 0.5s;
+
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    z-index: 0;
+}
+.navbar img{
+    margin-left: 1100px;
+    width: 50px;
+    margin-top: -50px;
+}
+.navbar_ul{
+    font-size: 22px;
+    font-weight: 400;
+    display: flex;
+    margin-left: 270px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.navbar_li{
+    margin-right: 25px;
+    position: relative;
+    color: white;
+}
+.navbar_li::after{
+    margin-right: 40px;
+}
+.navbar_li::before{
+    content: "";
+    position: absolute;
+    left: -13px;
+    bottom: -20px;
+    width: 200%;
+    height: 2px;
+    background-color: white;
+}
+.navbar_li:hover{
+        color: #0653b6;
+}
+
+.navbar_li:hover.navbar_li::before{
+    background-color: #0653b6;
+}
+.gg{
+    width: 100%;
+    height: 3vh;
+    top: 60px;
+    position: absolute;
+}
+.gg h1{
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 950px;
+    color: white;
+}
+
+.banner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 7s;
+}
+.beginner:hover .banner img{
+    transform: scale(1.1);
+    filter: grayscale(50%);
+}
+.text{
+    width: 100%;
+    height: 50vh;
+}
+.text h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    padding-top: 300px;
+    margin-left: 100px;
+}
+.text h2{
+    font-size: 65px;
+    font-weight: 600;
+    color: white;
+    margin-left: 100px;
+}
+.text h3{
+    font-size: 65px;
+    font-weight: 600;
+    color: white;
+    margin-left: 100px;
+}
+.text button{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-left: 100px;
+    outline: none;
+    border: 2px solid white;
+    margin-top: 40px;
+}
+.nav{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.nav1{
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.creat{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+.creat img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 7s;
+}
+.nav1:hover .creat img{
+    transform: scale(1.1);
+    filter: grayscale(50%);
+}
+.nav1 h1{
+    font-size: 30px;
+}
+.tekst{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 10vh;
+    top: 350px;
+}
+.tekst h1{
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+    margin-left: 100px;
+}
+.tekst h2{
+    font-size: 55px;
+    color: white;
+    margin-left: 100px;
+}
+.tekst button{
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-left: 100px;
+    outline: none;
+    border: 2px solid white;
+}
+.nav2{
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.creat1{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+.creat1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 7s;
+}
+.nav2:hover .creat1 img{
+    transform: scale(1.1);
+    filter: grayscale(50%);
+}
+.nav2 h1{
+    font-size: 30px;
+}
+.text1{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 10vh;
+    top: 350px;
+}
+.text1 h1{
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+    margin-left: 50px;
+}
+.text1 h2{
+    font-size: 55px;
+    color: white;
+    margin-left: 50px;
+}
+.text1 button{
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-left: 50px;
+    outline: none;
+    border: 2px solid white;
+}
+.shorts{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(44, 43, 43);
+}
+.wall1{
+    width: 300px;
+    height: 60vh;
+}
+.wall1 h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+}
+.wall1 h2{
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+}
+.wall1 button{
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    outline: none;
+    border: 2px solid white;
+}
+.wall2{
+    width: 300px;
+    height: 60vh;
+    z-index: 1;
+    position: relative;
+}
+.wal{
+    width: 300px;
+    height: 60vh;
+    overflow: hidden;
+}
+.wal img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 3s;
+    /* overflow: hidden; */
+}
+.wall2:hover .wal img{
+    transform: scale(1.1);
+    filter: grayscale(50%);
+}
+.text3{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 10vh;
+    top: 260px;
+}
+.text3 h1{
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.text3 h2{
+    font-size: 16px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.wall3{
+    width: 300px;
+    height: 60vh;
+    z-index: 1;
+    position: relative;
+}
+.wal2{
+    width: 300px;
+    height: 60vh;
+    overflow: hidden;
+}
+.wal2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 3s;
+    /* overflow: hidden; */
+}
+.wall3:hover .wal2 img{
+    transform: scale(1.1);
+    filter: grayscale(50%);
+}
+.text4{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 10vh;
+    top: 250px;
+}
+.text4 h1{
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.text4 h2{
+    font-size: 16px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.wall4{
+    width: 300px;
+    height: 60vh;
+    z-index: 1;
+    position: relative;
+}
+.wal3{
+    width: 300px;
+    height: 60vh;
+    overflow: hidden;
+}
+.wal3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 3s;
+    /* overflow: hidden; */
+}
+.wall4:hover .wal3 img{
+    transform: scale(1.1);
+    filter: grayscale(50%);
+}
+.text5{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 10vh;
+    top: 250px;
+}
+.text5 h1{
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.text5 h2{
+    font-size: 16px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.line{
+    width: 100%;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.line h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+.line h2{
+    font-size: 75px;
+    font-weight: 700;
+    color: black;
+}
+.line{
+    font-size: 26px;
+    font-weight: 900;
+    color: black;
+}
+.business{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.man{
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.men{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+.men img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 7s;
+}
+.man:hover .men img{
+    transform: scale(1.1);
+    filter: grayscale(80%);
+}
+.text6{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 12vh;
+    top: 600px; 
+}
+.text6 h1{
+    font-size: 16px;
+    margin-left: 50px;
+    color: white;
+}
+.text6 h2{
+    font-size: 24px;
+    margin-left: 50px;
+    color: white;
+}
+.bmw{
+    width: 40%;
+    height: 100%;
+    background-color: turquoise;
+}
+.oficial{
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.ofcial{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+.ofcial img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 3s;
+}
+.oficial:hover .ofcial img{
+    transform: scale(1.1);
+    filter: grayscale(70%);
+}
+.text7{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 10vh;
+    top: 250px;
+}
+.text7 h1{
+    font-size: 16px;
+    margin-left: 50px;
+    color: white;
+}
+.text7 h2{
+    font-size: 24px;
+    margin-left: 50px;
+    color: white;
+}
+.poli{
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.poll{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+.poll img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 3s;
+}
+.poli:hover .poll img{
+    transform: scale(1.1);
+    filter: grayscale(90%);
+}
+.text8{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 10vh;
+    top: 260px;
+}
+.text8 h1{
+    width: 40px;
+    margin-left: 50px;
+    color: white;
+}
+.text8 h2{
+    font-size: 24px;
+    margin-left: 50px;
+    color: white;
+}
+.demo{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.demo2{
+width: 33%;
+height: 98%;
+background-size: cover;
+position: relative;
+overflow: hidden;
+}
+.dem{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+.dem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 3s;
+}
+.demo2:hover .dem img{
+    transform: scale(1.1);
+    filter: grayscale(30%);
+}
+.text9{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 10vh;
+    top: 250px;
+}
+.text9 h1{
+    width: 30px;
+    color: white;
+    margin-left: 20px;
+}
+.text9 h2{
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+  margin-left: 20px;
+}
+.text9 h3{
+font-size: 24px;
+color: white;
+margin-left: 20px;
+}
+.demo3{
+    width: 33%;
+height: 98%;
+background-size: cover;
+position: relative;
+overflow: hidden;
+}
+.dem2{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+.dem2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 3s;
+}
+.demo3:hover .dem2 img{
+    transform: scale(1.1);
+    filter: grayscale(90%);
+}
+.text10{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 15vh;
+    top: 250px;
+}
+.text10 h1{
+    width: 30px;
+    color: white;
+    margin-left: 20px;
+}
+.text10 h2{
+    margin-left: 20px;
+    font-size: 26px;
+    color: white;
+}
+.text10 h3{
+    margin-left: 20px;
+    font-size: 25px;
+    color: white;
+}
+.demo4{
+    width: 33%;
+    height: 98%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    }
+    .dem3{
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+    }
+    .dem3 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 3s;
+    }
+    .demo4:hover .dem3 img{
+        transform: scale(1.1);
+        filter: grayscale(90%);
+    }
+    .text11{
+        position: absolute;
+        z-index: 5;
+        width: 100%;
+        height: 10vh;
+        top: 300px;
+    }
+    .text11 h1{
+        font-size: 22px;
+        margin-left: 20px;
+        color: white;
+    }
+    .text11 h2{
+      font-size: 22px;
+      font-weight: 500;
+      color: white;
+      margin-left: 20px;
+    }
+        .git{
+            width: 100%;
+            height: 80vh;
+            display: flex;
+      
+      }
+      .get{
+          width: 40%;
+          height: 80vh;
+      }
+      .git_mini{
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+      }
+      .git_mini2{
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+      }
+      .git_mini2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 3s;
+      }
+      .git_mini:hover .git_mini2 img{
+        transform: scale(1.1);
+        filter: grayscale(60%);
+      }
+      .text12{
+          position: absolute;
+          z-index: 5;
+          width: 100%;
+          height: 15vh;
+          top: 220px;
+      }
+      .text12 h1{
+        font-size: 22px;
+        margin-left: 20px;
+        color: white;
+    }
+    .text12 h2{
+      font-size: 22px;
+      font-weight: 500;
+      color: white;
+      margin-left: 20px;
+    }
+    .git_min{
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+      }
+      .git_min2{
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+      }
+      .git_min2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 3s;
+      }
+      .git_min:hover .git_min2 img{
+        transform: scale(1.1);
+        filter: grayscale(60%);
+      }
+      .text13{
+          position: absolute;
+          z-index: 5;
+          width: 100%;
+          height: 15vh;
+          top: 180px;
+      }
+      .text13 h1{
+        font-size: 18px;
+        margin-left: 20px;
+        color: white;
+    }
+    .text13 h2{
+      font-size: 22px;
+      font-weight: 500;
+      color: white;
+      margin-left: 20px;
+    }
+    .big{
+        width: 60%;
+        height: 80vh;
+
+    }
+    .big_mini{
+        width: 100%;
+        height: 80vh;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    .big_mini2{
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+      }
+      .big_mini2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 3s;
+      }
+      .big_mini:hover .big_mini2 img{
+        transform: scale(1.1);
+        filter: grayscale(70%);
+      }
+      .text14{
+          position: absolute;
+          z-index: 5;
+          width: 100%;
+          height: 15vh;
+          top: 530px;
+      }
+      .text14 h1{
+        font-size: 18px;
+        margin-left: 20px;
+        color: white;
+    }
+    .text14 h2{
+      font-size: 22px;
+      font-weight: 500;
+      color: white;
+      margin-left: 20px;
+    }
+    .miss{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .girl{
+        width: 32%;
+        height: 39vh;
+        position: relative;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .mis{
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+    }
+    .mis img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 6s;
+    }
+    .girl:hover .mis img{
+        transform: scale(1.1);
+        filter: grayscale(50%);
+    }
+     .text15{
+         position: absolute;
+         z-index: 4;
+         width: 100%;
+         height: 15vh;
+         top: 230px;
+     }
+     .text15 h1{
+         font-size: 22px;
+         margin-left: 20px;
+         color: white;
+     }
+     .text15 h2{
+         font-size: 22px;
+         margin-left: 20px;
+         color: white;
+     }
+
+  .pobeda{
+      width: 33.3%;
+      height: 39vh;
+      position: relative;
+      background-size: cover;
+  }
+  .pobed{
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      overflow: hidden;
+  }
+  .pobed img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 4s;
+  }
+  .pobeda:hover .pobed img{
+      transform: scale(1.1);
+      filter: grayscale(80%);
+  }
+  
+     .text16{
+         position: absolute;
+         z-index: 4;
+         width: 100%;
+         height: 15vh;
+         top: 230px;
+     }
+     .text16 h1{
+         font-size: 22px;
+         margin-left: 20px;
+         color: white;
+     }
+     .text16 h2{
+         font-size: 22px;
+         margin-left: 20px;
+         color: white;
+     }
+  
+     .master{
+        width: 33.3%;
+        height: 39vh;
+        position: relative;
+        background-size: cover;
+    }
+    .mast{
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+    }
+  .mast img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 6s;
+  }
+  .master:hover .mast img{
+      transform: scale(1.1);
+      filter: grayscale(50%);
+  }
+  
+     .text17{
+         position: absolute;
+         z-index: 4;
+         width: 100%;
+         height: 15vh;
+         top: 200px;
+     }
+     .text17 h1{
+         font-size: 22px;
+         margin-left: 20px;
+         color: white;
+     }
+     .text17 h2{
+         font-size: 22px;
+         margin-left: 20px;
+         color: white;
+     }
+     .men{
+         width: 100%;
+         height: 100vh;
+         display: flex;
+     }
+     .mans{
+         width: 70%;
+         height: 100vh;
+         position: relative;
+         background-size: cover;
+     }
+     .man{
+         width: 100%;
+         height: 100%;
+         z-index: -1;
+         overflow: hidden;
+     }
+     .man img{
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         transition: 6s;
+     }
+     .mans:hover .man img{
+         transform: scale(1.1);
+         filter: grayscale(50%);
+     }
+     .text18{
+         position: absolute;
+         z-index: 5;
+         width: 100%;
+         height: 15vh;
+         top: 650px;
+     }
+     .text18 h1{
+         font-size: 26px;
+         margin-left: 20px;
+         color: white;
+     }
+     .text18 h2{
+         font-size: 28px;
+         margin-left: 20px;
+         color: white;
+         font-weight: 600;
+         margin-top: 10px;
+     }
+     .left{
+         width: 30%;
+         height: 100vh;
+     }
+     .serious{
+         width: 100%;
+         height: 50vh;
+         position: relative;
+         background-size: cover;
+     }
+     .serio{
+         width: 100%;
+         height: 100%;
+         overflow: hidden;
+         z-index: -1;
+     }
+     .serio img{
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         transition: 6s;
+     }
+     .serious:hover .serio img{
+         transform: scale(1.1);
+         filter: grayscale(50%);
+     }
+     .text19{
+         position: absolute;
+         z-index: 5;
+         width: 100%;
+         height: 15vh;
+         top: 300px;
+     }
+     .text19 h1{
+         margin-left: 20px;
+         font-size: 22px;
+         color: white;
+     }
+     .text19 h2{
+         font-size: 22px;
+         margin-left: 20px;
+         color: white;
+     }
+     .negir{
+         width: 100%;
+         height: 100%;
+         position: relative;
+         background-size: cover;
+     }
+     .neg{
+         width: 100%;
+         height: 100%;
+         overflow: hidden;
+         z-index: -1;
+     }
+     .neg img{
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         transition: 6s;
+     }
+     .negir:hover .neg img{
+         transform: scale(1.1);
+         filter: grayscale(50%);
+     }
+     .text01{
+         position: absolute;
+         z-index: 5;
+         width: 100%;
+         height: 15vh;
+         top: 300px;
+     }
+     .text01{
+         font-size: 12px;
+         color: white;
+         margin-left: 20px;
+     }
+     .text01 h2{
+         font-size: 18px;
+         color: white;
+         margin-left: 5px;
+     }
+     .nation{
+         width: 100%;
+         height: 40vh;
+         display: flex;
+         align-items: center;
+         justify-content: space-evenly;
+     }
+     .hat{
+         width: 33%;
+         height: 39vh;
+         position: relative;
+         background-size: cover;
+     }
+     .doc{
+         width: 100%;
+         height: 100%;
+         overflow: hidden;
+         z-index: -1;
+     }
+     .doc img{
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         transition: 6s;
+     }
+     .hat:hover .doc img{
+         transform: scale(1.1);
+         filter: grayscale(50%);
+     }
+     .text02{
+         position:absolute;
+         z-index: 5;
+         width: 100%;
+         height: 15vh;
+         top: 230px;
+     }
+     .text02 h1{
+         font-size: 22px;
+         color: white;
+         margin-left: 20px;
+     }
+     .text02 h2{
+         font-size: 22px;
+         color: white;
+         margin-left: 20px;
+     }
+     .writer{
+         width: 100%;
+         height: 100vh;
+         display: flex;
+     }
+     .writ{
+         width: 30%;
+         height: 100vh;
+     }
+     .writerram{
+         width: 100%;
+         height: 50vh;
+         position: relative;
+         background-size: cover;
+     }
+     .right{
+         width: 100%;
+         height: 100%;
+         z-index: -1;
+         overflow: hidden;
+     }
+      .right img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: 6s;
+      }
+      .writerram:hover .right img{
+          transform: scale(1.1);
+          filter: grayscale(50%);
+      }
+      .text03{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        height: 15vh;
+        top: 280px;  
+      }
+      .text03 h1{
+          font-size: 22px;
+          color: rgb(255, 255, 255);
+          margin-left: 20px;
+      }
+      .text03 h2{
+          font-size: 22px;
+          color: rgb(255, 255, 255);
+         margin-left: 20px;
+      }
+      .joy{
+          width: 100%;
+          height: 50vh;
+          position: relative;
+          background-size: cover;
+      }
+      .joying{
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+          overflow: hidden;
+      }
+      .joying img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: 6s;
+      }
+      .joy:hover .joying img{
+          transform: scale(1.1);
+          filter: grayscale(50%);
+      }
+      .text04{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        height: 15vh;
+        top: 300px;  
+      }
+      .text04 h1{
+          font-size: 22px;
+          color: rgb(255, 255, 255);
+          margin-left: 20px;
+      }
+      .text04 h2{
+          font-size: 22px;
+          color: rgb(255, 255, 255);
+         margin-left: 20px;
+      }
+      .dark{
+          width: 70%;
+          height: 100vh;
+          position: relative;
+          background-size: cover;
+      }
+      .dark2{
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+          overflow: hidden;
+      }
+      .dark2 img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: 6s;
+      }
+      .dark:hover .dark2 img{
+          transform: scale(1.1);
+          filter: grayscale(-50%);
+      }
+      .text05{
+          position: absolute;
+          z-index: 5;
+          width: 100%;
+          height: 15vh;
+          top: 665px;
+      }
+      .text05 h1{
+          font-size: 22px;
+          color: white;
+          margin-left: 20px;
+      }
+      .text05 h2{
+          font-size: 22px;
+          color: white;
+          margin-left: 20px;
+      }
+      .width{
+          width: 100%;
+          height: 25vh;
+          display: grid;
+          place-items: center;
+      }
+      .width button{
+          width: 25%;
+          height: 55px;
+          border: 2px solid black;
+          background-color: white;
+          font-size: 18px;
+          font-weight: 600;
+      }
+      .english{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        background-color: rgb(34, 34, 34);
+    }
+    .english ul{
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        display: flex;
+        list-style-type: none;
+        margin-left: 240px;
+    }
+    .english li{
+        margin-right: 20px;
+        margin-top: 60px;
+    } 
+      .footer{
+          width: 100%;
+          height: 80vh;
+          background-color: rgb(34, 34, 34);
+          display: flex;
+          align-items: center;
+      }
+      .first{
+          width: 20%;
+          height: 60vh;
+          margin-left: 200px;
+      }
+      .first h1{
+          font-size: 18px;
+          color: rgb(11,0,238);
+          margin-left: 40px;
+          padding-top: 20px;
+      }
+      .kill{
+          width: 200px;
+          height: 2px;
+          background-color: rgb(11,0,238);
+          margin-left: 40px;
+          margin-top: 10px;
+      }
+      .first ul{
+          font-size: 18px;
+          padding-top: 20px;
+          line-height: 30px;
+      }
+
+
+
+         
+         
+         
+         
